@@ -1,0 +1,283 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    .alldivlist {
+        justify-content: flex-end;
+
+        li {
+            .home {
+                color: #69B4FD;
+            }
+
+            a {
+                font-family: sans-serif;
+                color: black;
+                font-weight: 700;
+                font-size: 14px;
+                font-family: "Poppins", sans-serif;
+                line-height: 20px;
+
+                &:hover {
+                    color: #69B4FD;
+                }
+            }
+        }
+
+    }
+}
+
+main {
+display: flex;
+flex-direction: column;
+gap: 150px;
+    // SECTION
+    #weare {
+        background-image: url(https://preview.colorlib.com/theme/onepro/img/slider/slide_1.jpg);
+        width: 100%;
+        min-height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        .business {
+            color: rgb(220, 217, 217);
+
+            h5 {
+                height: 40px;
+            }
+
+            h2 {
+                height: 65px;
+            }
+
+            p {
+                width: 500px;
+            }
+
+            button {
+                margin-top: 20px;
+                height: 50px;
+                width: 200px;
+                border-radius: 7px;
+                background-color: #69B4FD;
+                border-style: none;
+                color: white;
+
+                &:hover {
+                    background-color: rgb(236, 233, 233);
+                    color: #69B4FD;
+                }
+            }
+        }
+    }
+
+    // section 2
+    #web-development {
+        height: 800px;
+
+        .cart {
+            .web-developmentdiv {
+                text-align: center;
+                padding-top: 20px;
+
+                h5 {
+                    text-align: center;
+                    padding-top: 20px;
+                    font-weight: 700;
+                    font-size: 20px;
+                }
+
+                p {
+                    color: rgb(167, 165, 165);
+                }
+
+                button {
+                    margin-top: 20px;
+                    height: 40px;
+                    width: 150px;
+                    border-radius: 6px;
+                    background-color: #69B4FD;
+                    color: white;
+                    border-style: none;
+
+                    &:hover {
+                        background-color: black;
+                    }
+                }
+
+                .divicon {
+                    border: 1px solid #69B4FD;
+                    height: 60px;
+                    width: 60px;
+                    text-align: center;
+                    margin: auto;
+                    margin-bottom: 25px;
+
+                    &:hover {
+                        background-color: #69B4FD;
+                        color: white;
+                    }
+
+                    i {
+                        font-size: 30px;
+                        margin-top: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    // section 3
+    #oUR-AWESOME-PROJECTS {
+
+        background-color: #EEEEEE;
+
+        .oUR-AWESOME-PROJECTS {
+
+            h2 {
+                padding-top: 25px;
+                text-align: center;
+            }
+
+            p {
+                min-height: 180px;
+                padding-top: 20px;
+                max-width: 950px;
+                text-align: center;
+                color: rgb(167, 165, 165);
+                margin: auto;
+            }
+
+            .divlineblue {
+                background-color: #69B4FD;
+               min-height: 3px;
+                max-width: 30px;
+                margin: auto;
+                margin-top: 15px;
+            }
+
+            ul {
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+                font-weight: 500;
+
+                .all {
+                    color: #69B4FD;
+                }
+
+                li {
+                    list-style-type: none;
+                }
+            }
+
+        }
+
+        .colimg {
+            img {
+                height: auto;
+               max-width: 300px;
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+    // section 4
+    #mEET-OUR-TEAM {
+       min-height: 750px;
+        padding-top: 20px;
+
+        .mEET-OUR-TEAM {
+            h2 {
+                padding-top: 25px;
+                text-align: center;
+                font-family: sans-serif;
+                font-weight: 700;
+                font-size: 30px;
+            }
+
+            .divlineblue {
+                background-color: #69B4FD;
+                min-height: 3px;
+                max-width: 30px;
+                margin: auto;
+                margin-top: 15px;
+            }
+
+            p {
+                min-height: 180px;
+                padding-top: 20px;
+                max-width: 850px;
+                text-align: center;
+                color: rgb(167, 165, 165);
+                margin: auto;
+            }
+        }
+
+        .colimg {
+            .cartheadertext {
+                height:auto;
+                max-width: 250px;
+                background-color: #69B4FD;
+
+                p {
+                    text-align: center;
+                    font-size: 20px;
+                    color: white;
+                    font-weight: 500;
+
+
+                }
+            }
+
+            img {
+                max-width: 250px;
+
+            }
+        }
+
+    }
+
+
+}
+
+#copyright {
+    min-height: 77px;
+    widows: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262626;
+    padding-top: 20px;
+    margin-top: 20px;
+
+    .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            font-family: sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            padding-top: 20px;
+            color: white;
+
+            span {
+                &:hover {
+                    color: #69B4FD;
+                }
+            }
+
+        }
+
+    }
+}
